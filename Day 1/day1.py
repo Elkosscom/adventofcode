@@ -9,7 +9,7 @@ assert calculate_fuel(1969) == 654
 assert calculate_fuel(100756) == 33583
 
 
-with open(r"Day 1\1_input.txt", "r") as f:
+with open(r"input", "r") as f:
     modules = [int(line[0:-1]) for line in f.readlines()]
 
 total = 0
